@@ -69,7 +69,7 @@ To start the web server, run the following command from the project's root direc
 composer start
 ```
 
-You can then browse to [http://localhost:8080](http://localhost:8008) in your web browser.
+You can then browse to [http://localhost:8080](http://localhost:8080) in your web browser.
 
 *Note: If you already have a web server running on port 8080, edit the `"scripts": { "start": ... }` section of the `composer.json` file.*
 
