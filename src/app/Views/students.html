@@ -2,5 +2,9 @@
 
 {% block content %}
 	<h1>Students</h1>
-	<code>TODO: List students here</code>
+        <ul>
+          {% for student in students %}
+               <li>{{ student.displayName|e }}</li>
+          {% endfor %}
+        </ul>
 {% endblock %}
