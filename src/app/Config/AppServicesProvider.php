@@ -32,6 +32,12 @@ class AppServicesProvider {
 			};
 		}
 
+		if (!isset($container['student_name_resolver'])) {
+			$container['student_name_resolver'] = function($c) {
+                          return new \Services\NameResolver\StudentNameResolver();
+			};
+		}
+
 	}
 
 }
